@@ -14,7 +14,7 @@ document.getElementById("container");
 This is an exercise that will help get you acclimated to the DOM API. For each individual prompt, write out the code necessary to achieve the particular task at hand. Test it out, and then move forward. If you encounter a situation where you can use a previous prompt’s solution for the one you are currently working on, feel free to keep it DRY (Do-Not-Repeat-Yourself) and leverage that reusable code. By the same token, if you encounter a situation where a previous prompt’s solution is a blocker (gets in the way of what you are trying to achieve at the moment), then prioritize the current prompt. You can comment out the code that’s blocking, test out the current code that you are working on, and after verifying that it works you can comment back in the previous code. In this way, you’ll be treating each prompt as an individual, distinct task. The primary point is to become more familiar with the DOM methods that allow you to interact and manipulate the Document Object Model.
 
 
-##Assignment:
+## Assignment:
 Complete and submit the following based on this link (https://gist.github.com/ajLapid718/3f1caaf7365a9d9049c1b5e8b9c45d97):
 Write the code necessary to do the following:
 1. Select the section with an id of container without using querySelector.
