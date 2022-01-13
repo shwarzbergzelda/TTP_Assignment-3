@@ -5,13 +5,13 @@ document.getElementById("container");
 document.querySelector("#container");
 
 // Solves problem #3: Select all of the list items with a class of "second".
-const secondListEl = document.querySelectorAll("li > .second");
+const secondListEl = document.querySelectorAll("li.second");
 
 // Solves problem #4: Select a list item with a class of third, but only the list item inside of the ol tag.
 document.querySelector("ol .third");
 
 // Solves problem #5: Give the section with an id of container the text "Hello!".
-document.querySelector("#container").append("Hello");
+document.querySelector("#container").textContent = ("Hello");
 
 // Solves problem #6: Add the class main to the div with a class of footer.
 const footerDiv = document.querySelector(".footer");
